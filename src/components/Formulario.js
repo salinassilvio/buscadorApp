@@ -34,7 +34,7 @@ const Formulario = ({guardarBusqueda}) => {
                         onChange={e => guardarTermino(e.target.value)}
                    ></input>
                 </div>
-                <div className="form-group col-md-8">
+                <div className="form-group col-md-4">
                    <button 
                         className="btn btn-lg btn-danger btn-block"
                         type="submit"
